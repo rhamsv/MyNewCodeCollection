@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26562" started-at="2020-02-01T05:31:10Z" finished-at="2020-02-01T05:31:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="26562" started-at="2020-02-01T05:31:10Z" finished-at="2020-02-01T05:31:36Z">
+      <class name="com.leafBot.testcases.TC002_LoginForFailure">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="startReport" is-config="true" duration-ms="434" started-at="2020-02-01T05:31:09Z" finished-at="2020-02-01T05:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="setValues" is-config="true" duration-ms="1" started-at="2020-02-01T05:31:10Z" finished-at="2020-02-01T05:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="setUpClass" is-config="true" duration-ms="115" started-at="2020-02-01T05:31:10Z" finished-at="2020-02-01T05:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="report" is-config="true" duration-ms="7" started-at="2020-02-01T05:31:10Z" finished-at="2020-02-01T05:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="4469" started-at="2020-02-01T05:31:11Z" finished-at="2020-02-01T05:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLeaf(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="createLeaf" duration-ms="2631" started-at="2020-02-01T05:31:15Z" data-provider="fetchData" finished-at="2020-02-01T05:31:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password was empty reenter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeaf -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="afterMethod" is-config="true" duration-ms="57" started-at="2020-02-01T05:31:18Z" finished-at="2020-02-01T05:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="3603" started-at="2020-02-01T05:31:18Z" finished-at="2020-02-01T05:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLeaf(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="createLeaf" duration-ms="2505" started-at="2020-02-01T05:31:21Z" data-provider="fetchData" finished-at="2020-02-01T05:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username was empty reenter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeaf -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="afterMethod" is-config="true" duration-ms="52" started-at="2020-02-01T05:31:24Z" finished-at="2020-02-01T05:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="3835" started-at="2020-02-01T05:31:24Z" finished-at="2020-02-01T05:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLeaf(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="createLeaf" duration-ms="2617" started-at="2020-02-01T05:31:28Z" data-provider="fetchData" finished-at="2020-02-01T05:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User not found.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeaf -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="afterMethod" is-config="true" duration-ms="48" started-at="2020-02-01T05:31:30Z" finished-at="2020-02-01T05:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="3642" started-at="2020-02-01T05:31:30Z" finished-at="2020-02-01T05:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLeaf(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="createLeaf" duration-ms="2272" started-at="2020-02-01T05:31:34Z" data-provider="fetchData" finished-at="2020-02-01T05:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password incorrect.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeaf -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="afterMethod" is-config="true" duration-ms="56" started-at="2020-02-01T05:31:36Z" finished-at="2020-02-01T05:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-02-01T05:31:36Z" finished-at="2020-02-01T05:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC002_LoginForFailure@4e9ba398]" name="stopReport" is-config="true" duration-ms="353" started-at="2020-02-01T05:31:36Z" finished-at="2020-02-01T05:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.TC002_LoginForFailure -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
